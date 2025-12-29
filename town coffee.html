@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Town Coffee | Jaipur</title>
+    <link rel="stylesheet" href="style-cafe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="language-toggle">
+    <button id="langBtn" onclick="toggleLanguage()">हिंदी में देखें</button>
+</div>
+
+<header>
+    <div class="container">
+        <h1><span id="header-title">Town Coffee</span></h1>
+        <p id="header-subtitle">Coffee Shop in Jaipur</p>
+        <div class="rating">
+            <span class="stars">⭐⭐⭐⭐⭐</span>
+            <span id="rating-text">4.4 (2315 reviews)</span>
+        </div>
+        <div class="badge open-badge" id="open-badge">Open</div>
+    </div>
+</header>
+
+<section class="hero">
+    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&q=80" alt="Town Coffee Interior">
+    <div class="hero-overlay">
+        <h2 id="hero-title">Coffee • Meetings • Hangouts</h2>
+        <p id="hero-text">Popular café for work, meetings and groups</p>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container">
+        <a href="https://wa.me/917711899993" class="btn btn-primary">
+            <span class="btn-icon">💬</span> <span id="whatsapp-btn">Contact on WhatsApp</span>
+        </a>
+        <a href="tel:+917711899993" class="btn btn-secondary">
+            <span class="btn-icon">📞</span> <span id="call-btn">Call Now</span>
+        </a>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container">
+        <h2 id="about-title">About Town Coffee</h2>
+        <p id="about-text">
+            Town Coffee is a high-traffic urban café in Jaipur known for its ambience,
+            coffee variety, shakes, desserts and seating suitable for meetings,
+            work sessions and group hangouts.
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <span class="feature-icon">🍽️</span>
+                <h3 id="feature1-title">Dine-In</h3>
+                <p id="feature1-text">Available</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">📦</span>
+                <h3 id="feature2-title">Takeaway</h3>
+                <p id="feature2-text">Available</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🛵</span>
+                <h3 id="feature3-title">Delivery</h3>
+                <p id="feature3-text">Available</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🌳</span>
+                <h3 id="feature4-title">Outdoor Seating</h3>
+                <p id="feature4-text">Available</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="menu">
+<div class="container">
+<h2 id="menu-title">Popular Items</h2>
+
+<div class="menu-category">
+<h3 id="menu-hot-title">☕ Coffee & Beverages</h3>
+<div class="menu-grid">
+<div class="menu-item"><div class="menu-item-header"><span id="item-cappuccino">Cappuccino Latte</span></div></div>
+<div class="menu-item"><div class="menu-item-header"><span id="item-vietnamese">Vietnamese Coffee</span></div></div>
+<div class="menu-item"><div class="menu-item-header"><span id="item-irish">Irish Coffee</span></div></div>
+<div class="menu-item"><div class="menu-item-header"><span id="item-icedtea">Litchi Iced Tea</span></div></div>
+</div>
+</div>
+
+<div class="menu-category">
+<h3 id="menu-shake-title">🥤 Shakes & Desserts</h3>
+<div class="menu-grid">
+<div class="menu-item"><div class="menu-item-header"><span id="item-belgian">Belgian Chocolate Shake</span></div></div>
+<div class="menu-item"><div class="menu-item-header"><span id="item-brownie">Chocolate Brownie</span></div></div>
+<div class="menu-item"><div class="menu-item-header"><span id="item-tiramisu">Tiramisu</span></div></div>
+<div class="menu-item"><div class="menu-item-header"><span id="item-cheesecake">Blueberry Cheesecake</span></div></div>
+</div>
+</div>
+
+<div class="menu-category">
+<h3 id="menu-food-title">🍕 Food</h3>
+<div class="menu-grid">
+<div class="menu-item"><div class="menu-item-header"><span id="item-sandwich">Town Coffee Veg Club Sandwich</span></div></div>
+<div class="menu-item"><div class="menu-item-header"><span id="item-mac">Mac and Cheese</span></div></div>
+<div class="menu-item"><div class="menu-item-header"><span id="item-pizza">Veggie Delight Pizza</span></div></div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="reviews">
+<div class="container">
+<h2 id="reviews-title">What People Say</h2>
+<div class="reviews-grid">
+<div class="review-card">
+<div class="review-stars">⭐⭐⭐⭐⭐</div>
+<p class="review-text">“Nice ambience for meetings. Coffee and shakes are good.”</p>
+<p class="review-author">– Rohit Malhotra</p>
+</div>
+<div class="review-card">
+<div class="review-stars">⭐⭐⭐⭐</div>
+<p class="review-text">“Good place to work for a few hours. Seating is decent.”</p>
+<p class="review-author">– Pooja Sharma</p>
+</div>
+<div class="review-card">
+<div class="review-stars">⭐⭐⭐⭐⭐</div>
+<p class="review-text">“Belgian chocolate shake and desserts are worth trying.”</p>
+<p class="review-author">– Ankit Jain</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="amenities">
+<div class="container">
+<h2 id="amenities-title">Facilities</h2>
+<div class="amenities-grid">
+<div class="amenity-item"><span class="amenity-icon">♿</span><p id="amenity-access">Wheelchair Accessible</p></div>
+<div class="amenity-item"><span class="amenity-icon">🚻</span><p id="amenity-restroom">Restroom Available</p></div>
+<div class="amenity-item"><span class="amenity-icon">🅿️</span><p id="amenity-parking">Free Parking</p></div>
+</div>
+</div>
+</section>
+
+<section class="contact">
+<div class="container">
+<h2 id="contact-title">Visit Us</h2>
+<div class="contact-info">
+<div class="info-item">
+<h3 id="contact-address-title">Address</h3>
+<p id="contact-address">
+Plot No. E, 95, Jai Jawan Marg,
+Lal Bahadur Nagar, Jaipur – 302018
+</p>
+</div>
+<div class="info-item">
+<h3 id="contact-phone-title">Phone</h3>
+<p><a href="tel:+917711899993">077118 99993</a></p>
+</div>
+<div class="info-item">
+<h3 id="contact-hours-title">Hours</h3>
+<p id="contact-hours">Open • Closes at 10:45 PM</p>
+</div>
+</div>
+<a href="https://maps.app.goo.gl/9WEwpQs3oKMMXLM79" target="_blank" class="btn btn-map">
+<span class="btn-icon">🗺️</span> <span id="map-btn-text">Locate on Map</span>
+</a>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p id="footer-text">© 2025 Town Coffee</p>
+</div>
+</footer>
+
+<script>
+let currentLang='en';
+const translations={
+en:{
+langBtn:'हिंदी में देखें',
+'header-subtitle':'Coffee Shop in Jaipur',
+'open-badge':'Open',
+'hero-title':'Coffee • Meetings • Hangouts',
+'hero-text':'Popular café for work, meetings and groups',
+'whatsapp-btn':'Contact on WhatsApp',
+'call-btn':'Call Now',
+'about-title':'About Town Coffee',
+'about-text':'Town Coffee is a high-traffic urban café in Jaipur known for its ambience, coffee variety, shakes, desserts and seating suitable for meetings, work sessions and group hangouts.',
+'feature1-title':'Dine-In','feature1-text':'Available',
+'feature2-title':'Takeaway','feature2-text':'Available',
+'feature3-title':'Delivery','feature3-text':'Available',
+'feature4-title':'Outdoor Seating','feature4-text':'Available',
+'menu-title':'Popular Items',
+'reviews-title':'What People Say',
+'amenities-title':'Facilities',
+'contact-title':'Visit Us',
+'contact-address-title':'Address',
+'contact-phone-title':'Phone',
+'contact-hours-title':'Hours',
+'contact-hours':'Open • Closes at 10:45 PM',
+'map-btn-text':'Locate on Map',
+'footer-text':'© 2025 Town Coffee'
+},
+hi:{
+langBtn:'View in English',
+'header-subtitle':'जयपुर में कॉफी शॉप',
+'open-badge':'खुला है',
+'hero-title':'कॉफी • मीटिंग • हैंगआउट',
+'hero-text':'काम, मीटिंग और ग्रुप के लिए लोकप्रिय कैफ़े',
+'whatsapp-btn':'WhatsApp पर संपर्क करें',
+'call-btn':'अभी कॉल करें',
+'about-title':'Town Coffee के बारे में',
+'about-text':'Town Coffee जयपुर का एक लोकप्रिय कैफ़े है जो अपने माहौल, कॉफी, शेक, डेज़र्ट और मीटिंग के लिए बैठने की सुविधा के लिए जाना जाता है।',
+'feature1-title':'डाइन-इन','feature1-text':'उपलब्ध',
+'feature2-title':'टेकअवे','feature2-text':'उपलब्ध',
+'feature3-title':'डिलीवरी','feature3-text':'उपलब्ध',
+'feature4-title':'आउटडोर सीटिंग','feature4-text':'उपलब्ध',
+'menu-title':'लोकप्रिय आइटम',
+'reviews-title':'ग्राहकों की राय',
+'amenities-title':'सुविधाएं',
+'contact-title':'हमसे मिलें',
+'contact-address-title':'पता',
+'contact-phone-title':'फ़ोन',
+'contact-hours-title':'समय',
+'contact-hours':'खुला है • रात 10:45 बजे बंद',
+'map-btn-text':'मानचित्र पर देखें',
+'footer-text':'© 2025 Town Coffee'
+}};
+function toggleLanguage(){
+currentLang=currentLang==='en'?'hi':'en';
+for(const k in translations[currentLang]){
+const e=document.getElementById(k);
+if(e)e.textContent=translations[currentLang][k];
+}}
+</script>
+
+</body>
+</html>
